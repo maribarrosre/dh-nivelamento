@@ -58,7 +58,7 @@ console.log(valor1); // 20
 let valor2 = (10 + 2) * 5
 console.log(valor2) // 60
 
-// ⚠️ Divisão, multiplicação e módulo tem prioridade em relaçao à subtração e à adição. ⚠️
+// ⚠️ Divisão, multiplicação e módulo têm prioridade em relaçao à subtração e à adição. ⚠️
 
 // ⚠️ Se mesma prioridade, calcula-se a partir da esquerda
 let exemploPrioridade = 10 / 5 * 6
@@ -88,7 +88,7 @@ if (numeroTeste >= 50) {
     console.log("É maior ou igual")
 }
 
-// Outra forma de persarmos o código acima:
+// Outra forma de pensarmos o código acima:
 /* 
     >=  maior ou igual
         maior || igual 
@@ -100,6 +100,49 @@ if (numeroTeste > 50 || numeroTeste == 50) {
     console.log("É maior ou igual")
 }
 
+// ELSE IF
+
+// Exemplo 1
+
+// let notaDoAluno = 8 // Aluno aprovado com mérito
+// let notaDoAluno = 6 // Aluno aprovado 
+// let notaDoAluno = 4 // Aluno reprovado
+
+// if (notaDoAluno >= 7) {
+//     console.log("Aluno aprovado com mérito!")
+// } else if (notaDoAluno >= 5) {
+//     console.log("Aluno aprovado.");
+// } else {
+//     console.log("Aluno reprovado!");
+// }
+
+// Exemplo 2 - ⚠️ Cuidado com a ordem lógica ⚠️ - Código com erro na sequência lógica ⚠️
+
+let notaDoAluno = 6 
+// let notaDoAluno = 8 
+// let notaDoAluno = 4 
+
+/**
+ *  Caso a nota do aluno seja 6, por exemplo o código funcionará bem, porque 6 é maior ou igual a 5, conforme nossa condição
+ *  que vem no primeiro if (notaDoAluno >= 5).
+ * 
+ *  Já ao testarmos com um valor 8, por exemplo, irá gerar um resultado inesperado. Como saída teremos "Aluno aprovado.",mas
+ *  seguindo nossa lógica deveria imprimir "Aluno aprovado com mérito!". E onde está nosso erro?
+ * 
+ *  O erro está justamente na sequência lógica que escolhemos. Voltando ao exemplo, teremos que 8 é maior ou igual a 5, portanto irá
+ *  entrar no primeiro if, mas não chegará a ser validado no else if (notaDoAluno >= 7) que, de fato, imprimiria o retorno esperado. 
+ * 
+ *  Atentem-se ao enunciado e, principalmente, à sequência lógica.  
+ * 
+ */
+
+if (notaDoAluno >= 5) {
+    console.log("Aluno aprovado.");
+} else if (notaDoAluno >= 7) {
+    console.log("Aluno aprovado com mérito!");
+} else {
+    console.log("Aluno reprovado!")
+}
 
 // FUNÇÕES
 let trabalhoDeHistoria = 8.0
