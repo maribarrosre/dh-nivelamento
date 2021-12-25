@@ -29,12 +29,12 @@ function fatiadorDePaes(pao) {
   
   /* 
     Suponhamos que usei a máquina ontem para fatiar Pão Francês, mas hoje
-    quero comer Pão de Forma. Basta eu colocar o Pão de Forma na máquina e o
+    quero comer uma Pão Italiano. Basta eu colocar o Pão Italiano na máquina e o
     funcionamento será o mesmo.
   */
   
-  let paoDeForma = "Pão de Forma";
+  let paoItaliano = "Pão Italiano";
   
-  let paoDeFormaFatiado = fatiadorDePaes(paoDeForma)
+  let paoItalianoFatiado = fatiadorDePaes(paoItaliano)
   
-  console.log(paoDeFormaFatiado)
+  console.log(paoItalianoFatiado)
