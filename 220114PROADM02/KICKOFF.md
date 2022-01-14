@@ -1,6 +1,6 @@
 ## Kick Off
 ## Turma 220114
 
-- [ ] Slack
-- [ ] E-mail
+- [x] Slack
+- [x] E-mail
 - [ ] KO
