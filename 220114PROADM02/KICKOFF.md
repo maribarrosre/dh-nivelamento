@@ -21,4 +21,7 @@ https://www.youtube.com/watch?v=pADyAN15cZ0&ab_channel=CanalFutura
 Leitura:
 
 https://porvir.org/sala-de-aula-invertida-2/
+
 https://porvir.org/sala-de-aula-invertida-faz-os-alunos-aprenderem-de-forma-livre/
+
+https://blog.colegioarnaldo.com.br/sala-de-aula-invertida/
