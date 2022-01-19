@@ -25,3 +25,7 @@ https://porvir.org/sala-de-aula-invertida-2/
 https://porvir.org/sala-de-aula-invertida-faz-os-alunos-aprenderem-de-forma-livre/
 
 https://blog.colegioarnaldo.com.br/sala-de-aula-invertida/
+
+TED - Teach girls bravery, not perfection | Reshma Saujani
+
+https://www.youtube.com/watch?v=fC9da6eqaqg
