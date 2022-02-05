@@ -31,3 +31,17 @@ https://blog.colegioarnaldo.com.br/sala-de-aula-invertida/
 **TED - Teach girls bravery, not perfection | Reshma Saujani**
 
 https://www.youtube.com/watch?v=fC9da6eqaqg
+
+**Materiais de estudo**
+
+https://www.w3schools.com/js/default.asp
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+**Ambiente de Desenvolvimento Online**
+
+https://replit.com/~
+
+**Editor de Código**
+
+https://code.visualstudio.com/?wt.mc_id=DX_841432
