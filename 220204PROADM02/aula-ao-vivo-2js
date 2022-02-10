@@ -1,0 +1,153 @@
+
+// Imprimir de 1 até 10
+/**
+ *  5 x 1 = 5
+ *  5 x 2 = 10
+ *  5 x 3 = 15
+ * 
+ */
+
+// for(let i = 1; i < 11; i++) {
+//     console.log("5 x " + i + " = " + 5 * i)
+// }
+
+// for(let numero = 1; numero <= 10; numero++) {
+//     console.log(numero)
+// }
+
+// numero++
+// numero = numero + 1
+
+// for(variável; condição; incrementar) {
+
+// }
+
+// let numero = 5;
+
+// let numeros = [5, 10, 20, 30, 50]; // 4
+// // índice      0   1   2   3   4
+
+// // console.log(numeros);
+
+// // array[índice]
+
+
+// for(let indice = 0; indice < numeros.length; indice++) {
+//     console.log(numeros[indice])
+// }
+
+/**
+ *  Lavar roupa na mão (manual)
+ */
+
+
+/**
+ *  Entrada: Roupa
+ *  Processamento: Lavar a roupa
+ *  Saída: Roupa lavada
+ */
+
+// Etapa 1 - Declarar nossa função
+// function somar(numero1, numero2) {
+//     let soma = numero1 + numero2;
+
+//     return soma
+
+// }
+
+// // Etapa 2 - Invocar (chamar)
+
+// console.log(somar(10, 5))
+
+// // Manual
+// function maquinaDeLavar(roupa) {
+//     let lavagemDeRoupa = roupa + " lavada"
+
+//     return lavagemDeRoupa
+// }
+
+// let camiseta = "Camiseta Preta";
+// let bermuda =  "Bermuda";
+
+// console.log(maquinaDeLavar(camiseta))
+
+// console.log(maquinaDeLavar(bermuda))
+
+// function agregandoSabor(array, item) {
+//     array.push(item)
+
+//     return array
+// }
+
+// let ingredientes = ['Ovo', 'Farinha']
+// let item = 'Chocolate';
+// let item2 = "Leite"
+
+// console.log(agregandoSabor(ingredientes, item))
+// console.log(agregandoSabor(ingredientes, item2))
+
+// let numeros = ""
+
+// for(let i = 1; i <= 10; i++) {
+//     numeros = numeros + i + " "
+// }
+
+// console.log(numeros);
+
+// console.log(numeros.split().join());
+
+/**
+ *  5 x 1 = 5
+ *  5 x 2 = 10
+ *  5 x 3 = 15
+ * 
+ */
+
+// function tabuada(numero) {
+//     for(let i = 1; i < 11; i++) {
+//         console.log(numero + " x " + i + " = " + numero * i)
+//     }
+// }
+
+// tabuada(100)
+
+
+// function osPares(limitador) {
+//     let novoArray = []
+
+//     for(let i = 1; i <= limitador; i++) {
+//         if(i % 2 != 0) {
+//             novoArray.push(i * 10)
+//         }
+//     }
+
+//     return novoArray;
+// }
+
+// console.log(osPares(20))
+
+function somaDosPares(numero) {
+    let somaTodosValores = 0;
+
+    for(let i = 1; i <= numero; i++) {
+        if(i % 2 == 0) {
+            somaTodosValores = somaTodosValores + i
+            // somaTodosValores += i
+
+            // return somaTodosValores;
+        }
+    }
+
+    return somaTodosValores;
+}
+
+console.log(somaDosPares(8))
+
+// let valor1 = 10;
+// let valor2 = 5
+
+// valor1 = valor1 + valor2
+
+// let resultado = valor1 + valor2;
+
+// console.log(resultado);
